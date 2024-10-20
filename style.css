@@ -1,0 +1,90 @@
+body {
+
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(to bottom right, #6a11cb, #2575fc); /* Градієнтний фон */
+
+    margin: 0;
+
+    padding: 0;
+
+    color: #ffffff;
+
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.menu {
+    list-style-type: none; /* Прибираємо маркери списку */
+    padding: 0;
+    display: flex; /* Виставляємо елементи меню в горизонтальному порядку */
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background 0.3s;
+    border-radius: 5px;
+}
+
+.menu li a:hover {
+    background: rgba(255, 255, 255, 0.2); /* Зміна кольору фону при наведенні */
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.highlight {
+    background-color: rgba(255, 255, 0, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.info {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.services-list {
+    list-style-type: none; /* Прибираємо маркери списку */
+    padding: 0;
+}
+
+.services-list li {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.7);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
